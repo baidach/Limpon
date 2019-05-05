@@ -110,6 +110,7 @@ h1 {
     border: 1px solid #1085e4;
     padding: 20px 40px;
     border-radius: 30px;
+    transition: 0.3s;
 }
 .btn-primary:hover {
     color: #1085e4;
@@ -125,6 +126,7 @@ h1 {
     border: 1px solid #cbdde8;
     padding: 20px 40px;
     border-radius: 30px;
+    transition: 0.3s;
 }
 .btn-secondary:hover {
     background-color: #fff;
@@ -139,6 +141,7 @@ h1 {
     text-transform: uppercase;
     padding: 20px 40px;
     border-radius: 30px;
+    transition: 0.3s;
 }
 .btn-free {
     font-weight: 400;
@@ -158,6 +161,8 @@ h1 {
                             "e h h";
     max-width: 1110px;
     margin: 0 auto;
+    grid-gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .grid-title {
     grid-area: a;
@@ -207,6 +212,9 @@ h1 {
     font-size: 14px;
     font-weight: 600;
     color: #1085e4;
+}
+.page-softwere-icon {
+    
 }
 .list-stat {
     display: flex;
