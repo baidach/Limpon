@@ -96,8 +96,8 @@ h1 {
     width: 895px;
     height: 740px;
     position: absolute;
-   /* right: -320px; */
-    margin-left: 50%;
+   right: -13px;
+    
     top: 189px;
 }
 .btn-primary {
